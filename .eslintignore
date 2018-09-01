@@ -1,0 +1,4 @@
+**/*.html
+**/*.test.js
+**/*.mock.js
+**/*.snap

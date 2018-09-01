@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Text> renders 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      undefined,
+      undefined,
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`<Text> when {children} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      undefined,
+      undefined,
+      undefined,
+    ]
+  }
+>
+  satoshi-pi-client
+</Text>
+`;
+
+exports[`<Text> when {title} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      undefined,
+      Object {
+        "fontFamily": undefined,
+        "fontSize": 18,
+        "fontWeight": "700",
+      },
+      undefined,
+    ]
+  }
+>
+  satoshi-pi-client
+</Text>
+`;

@@ -1,0 +1,53 @@
+{
+  "name": "satoshi-pi-client",
+  "version": "0.0.1",
+  "description": "Cross-Device client app for satoshi-pi",
+  "keywords": [
+    "bitcoin",
+    "app",
+    "lncm",
+    "satoshi"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lncm/satoshi-pi-client.git"
+  },
+  "license": "MIT",
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "homepage": "https://github.com/lncm/satoshi-pi-client",
+  "bugs": "https://github.com/lncm/satoshi-pi-client/issues",
+  "dependencies": {
+    "expo": "29.0.0",
+    "prop-types": "15.6.2",
+    "react": "16.4.2",
+    "react-art": "16.4.2",
+    "react-dom": "16.4.2",
+    "react-native": "0.55.4",
+    "react-native-web": "0.8.9"
+  },
+  "devDependencies": {
+    "babel-eslint": "8.2.3",
+    "babel-plugin-file-loader": "1.0.0",
+    "babel-plugin-module-resolver": "3.1.1",
+    "babel-plugin-react-native-web": "0.8.9",
+    "eslint": "5.4.0",
+    "eslint-config-airbnb": "latest",
+    "eslint-import-resolver-babel-module": "4.0.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-react": "7.11.0",
+    "jest-expo": "29.0.0",
+    "react-native-scripts": "latest",
+    "react-scripts": "latest",
+    "react-test-renderer": "16.4.2",
+    "release-it": "7.4.3"
+  },
+  "scripts": {
+    "start": "NODE_PATH=src/ react-scripts start",
+    "start:native": "react-native-scripts start",
+    "test": "jest",
+    "lint": "eslint src/**",
+    "ci": "yarn && yarn test --coverage && yarn lint",
+    "release": "release-it"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "env": { "jest": true },
+  "globals": {
+    "document": true,
+    "fetch": true,
+    "webpack": true,
+    "window": true
+  },
+  "rules": {
+    // "camelcase": "warn",
+    "import/prefer-default-export": "warn",
+    "max-len": [1, 120, { "tabWidth": 2, "ignoreComments": true }],
+    "react/jsx-filename-extension": "off",
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {}
+    }
+  },
+}
